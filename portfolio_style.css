@@ -1,0 +1,111 @@
+body {
+  font-family: 'Lato', sans-serif;
+  max-height: 3000px;
+}
+
+header {
+  height: 600px;
+  padding: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("customblur.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header .content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20;
+  bottom: 10;
+}
+
+header .content .title {
+  margin-top: 20px;
+  margin-left: 20%;
+  font-size: 70px;
+  font-weight: normal;
+  color: #3f3d3d;
+}
+
+header .logo {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+header nav {
+  display: inline-block;
+  float: right;
+  margin-top: 7px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+header nav ul li .dropdown-menu:hover .dropdown-item {
+  display: block;
+}
+
+header nav ul li a {
+  display: inline-block;
+  color: #2F2F2F;
+  padding: 6px 10px;
+}
+
+header nav ul li .active a {
+  font-weight: bold;
+  border-radius: 1.5em;
+}
+
+header nav ul li:hover a {
+  background: #D5D2D2;
+  color: #2F2F2F;
+  border-radius: 1em;
+}
+
+.container {
+  margin-top: 60px;
+  padding-left: 30px;
+}
+
+.container a {
+  color: #2F2F2F;
+}
+
+.container:hover a {
+  color: #2F2F2F;
+}
+
+.row {
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+
+.row .title {
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.row .button {
+  color: #575353;
+}
+
+.row:hover a {
+  color: #575353;
+}
+/*# sourceMappingURL=portfolio_style.css.map */
